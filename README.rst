@@ -21,6 +21,11 @@ Project Structure
   every day I document what I'm working on and take notes on the problems I'm figuring out.
   It is my single most important process.
 
+* makefile
+
+  This file is used by a command-line utility called `make`
+  to generate milestones of the current draft into the "milestones" folder.
+
 * milestones/
 
   This folder contains duplicates of significant versions of the screenplay.
