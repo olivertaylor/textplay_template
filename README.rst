@@ -7,7 +7,7 @@ and was developed for his personal use
 after many years of hands-on experience.
 Feel free to modify any way you see it.
 
-Many of the assumptions I made when building this tempate are based on my working environment;
+Many of the assumptions I made when building this template are based on my working environment;
 I write in fountain_, using textplay_, and manage the entire project using git_.
 
 
@@ -17,13 +17,13 @@ Project Structure
 * logbook.txt
 
   I like to document my work and my processes.
-  In the same way a scientist notes every exparament and result,
+  In the same way a scientist notes every experiment and result,
   every day I document what I'm working on and take notes on the problems I'm figuring out.
   It is my single most important process.
 
 * makefile
 
-  This file is used by a command-line utility called `make`
+  This file is used by a command-line utility called ``make``
   to generate milestones of the current draft into the "milestones" folder.
 
 * milestones/
@@ -35,7 +35,7 @@ Project Structure
 * notes/
 
   A miscellaneous folder for scraps of notes.
-  Images, paper notebook scans, meeting minutes, that stuff.
+  Images, paper notebook scans, meeting minutes - that stuff.
 
   * story_encyclopedia.txt
 
@@ -64,7 +64,7 @@ Project Structure
 
   I use this file as a miscellaneous scratch-pad for things I need to do.
   Ideas for things I need to do are developed in the logbook,
-  written-out as a simple plan in todo.txt, and then integrated into story.txt
+  written-out as a simple plan in ``todo.txt``, and then integrated into ``story.txt``.
 
 
 .. .........................................
