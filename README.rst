@@ -1,11 +1,10 @@
 TEXTPLAY PROJECT TEMPLATE
 =========================
 
-This is a template project for screenplays written in the fountain_ format.
+This is a template project for screenplays written in fountain_.
 It is maintained by `Oliver Taylor`_
-and was developed for his personal use
-after many years of hands-on experience.
-Feel free to modify any way you see it.
+and was developed for his personal use.
+Feel free to modify any way you see fit.
 
 Many of the assumptions I made when building this template are based on my working environment;
 I write in fountain_, using textplay_, and manage the entire project using git_.
