@@ -1,9 +1,9 @@
 pdf: story.txt
-	textplay -p ./story.txt ./milestones/story.pdf
+	textplay < ./story.txt | prince - ./milestones/story_$(date +%Y%m%d).pdf
 
 html: story.txt
-	textplay ./story.txt ./milestones/story.html
+	textplay < ./story.txt > ./milestones/story_$(date +%Y%m%d).html
 
 milestone: story.txt
-	cp ./story.txt ./milestones/story.txt && \
-	textplay -p ./story.txt ./milestones/story.pdf
+	cp ./story.txt ./milestones/story_$(date +%Y%m%d).txt && \
+	textplay < ./story.txt | prince - ./milestones/story_$(date +%Y%m%d).pdf
